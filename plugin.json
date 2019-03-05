@@ -1,0 +1,19 @@
+{
+    "plugin": {
+        "name": "Your Plugin",
+        "slug": "your_plugin",
+        "description": "This is your plugin description",
+        "version": "0.0.0",
+        "license": "GPL-2.0+",
+        "text_domain": "yourplugin",
+        "main_class_name": "yourPlugin",
+        "style_id": "YourPlugin",
+        "script_id": "YourPlugin",
+        "constant_base_name": "YOURPLUGIN"
+    },
+    "author": {
+        "name": "Author",
+        "email": "author@author.xxx",
+        "url": "http://author.xxx"
+    }
+}

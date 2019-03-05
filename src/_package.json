@@ -1,0 +1,25 @@
+{
+    "name": "{{PLUGIN_SLUG}}",
+    "version": "{{PLUGIN_VERSION}}",
+    "description": "{{PLUGIN_DESCRIPTION}}",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "{{PLUGIN_REPOSITORY}}"
+    },
+    "keywords": [
+    "plugin",
+    "wp"
+  ],
+    "author": "{{PLUGIN_AUTHOR_NAME}}",
+    "license": "{{PLUGIN_LICENSE}}",
+    "dependencies": {
+        "grunt": "^1.0.3",
+        "grunt-contrib-compress": "^1.4.3",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-watch": "^1.1.0"
+    }
+}
